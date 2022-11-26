@@ -1,10 +1,5 @@
-import Directory from "./Directory.jsx";
-import Data from "./Data";
+import DirectoryApp from "./FolderStructureApp/DirectoryApp";
 
 export default function App() {
-  return (
-    <div className="App">
-      <Directory Data={Data} />
-    </div>
-  );
+  return <DirectoryApp />;
 }
