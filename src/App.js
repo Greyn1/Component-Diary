@@ -1,5 +1,5 @@
-import DirectoryApp from "./FolderStructureApp/DirectoryApp";
+import SearchBarApp from './SearchBarWithSuggestions/SearchBarApp';
 
 export default function App() {
-  return <DirectoryApp />;
+  return <SearchBarApp />;
 }
