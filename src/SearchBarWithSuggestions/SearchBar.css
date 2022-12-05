@@ -1,0 +1,38 @@
+.container {
+  min-height: 100vh;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+  overflow-y: hidden;
+}
+
+.search-container {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+input {
+  width: 95%;
+  height: 30px;
+  padding: 5px 5px;
+  font-size: medium;
+  border-radius: 5px;
+}
+
+.suggestions-container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.suggestion {
+  padding: 5px;
+  border-top: 1px solid grey;
+  background: rgb(107 5 250 / 96%);
+  color: whitesmoke;
+}
+
+body {
+  margin: 0;
+}
