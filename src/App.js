@@ -1,5 +1,5 @@
-import SearchBarApp from './SearchBarWithSuggestions/SearchBarApp';
+import ScrollIndicatorApp from "./ScrollIndicator/ScrollIndicatorApp";
 
 export default function App() {
-  return <SearchBarApp />;
+  return <ScrollIndicatorApp />;
 }
