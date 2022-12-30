@@ -5,12 +5,12 @@
   padding: 0;
   background-color: blueviolet;
   overflow-y: hidden;
+  padding: 6rem 0;
 }
 
 .search-container {
   width: 30%;
   margin: 0 auto;
-  margin-top: 30px;
 }
 
 input {
