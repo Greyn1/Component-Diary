@@ -1,5 +1,5 @@
-import ScrollIndicatorApp from "./ScrollIndicator/ScrollIndicatorApp";
+import ImageSliderApp from "./ImageSlider/ImageSliderApp";
 
 export default function App() {
-  return <ScrollIndicatorApp />;
+  return <ImageSliderApp />;
 }

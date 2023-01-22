@@ -1,0 +1,44 @@
+.imageSlider_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3em auto;
+  max-width: 50%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 200px;
+  margin: 0 10px;
+  flex-basis: auto;
+}
+
+.image {
+  width: inherit;
+  height: inherit;
+}
+
+button {
+  background-color: lightslategrey;
+  color: azure;
+  border-radius: 15px;
+  padding: 4px 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 1em;
+  border: 1px solid lightslategray;
+  transition: all ease-in-out 0.3s;
+}
+
+button:hover {
+  color: lightslategrey;
+  background-color: beige;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.9);
+}
