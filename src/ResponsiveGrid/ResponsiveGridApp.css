@@ -1,0 +1,9 @@
+.Grid{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit,minmax(100px,1fr)); 
+}
+.child{
+  background:blueviolet;
+  height: 100px;
+}
