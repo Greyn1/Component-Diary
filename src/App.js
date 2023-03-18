@@ -1,5 +1,5 @@
-import ImageSliderApp from "./ImageSlider/ImageSliderApp";
+import ResponsiveGridApp from "./ResponsiveGrid/ResponsiveGridApp";
 
 export default function App() {
-  return <ImageSliderApp />;
+  return <ResponsiveGridApp />;
 }
